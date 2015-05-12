@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-right: 1em;
+    font-size: 120%;
+}
+
+
+.template, .nav, .content {
+    display: flex;
+    height: 5em;
+}
+
+#header {
+    background-color: yellow;
+    height: 3em;
+}
+
+#footer {
+    background-color: yellow;
+    height: 3em;
+}
+
+#nav {
+    display: inline-block;
+    float: left;
+    width: 20%;
+    background-color: aqua;
+}
+
+#sidebar {
+    display: inline-block;
+    float: right;
+    width: 20%;
+    background-color: darkcyan;
+}
+
+#form_content {
+    width: 100%;
+    display: block;
+
+}
+
+#content {
+    display: inline-block;
+    width: 60%;
+    background-color: chartreuse;
+}
+
